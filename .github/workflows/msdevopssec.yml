@@ -38,4 +38,4 @@ jobs:
       uses: actions/upload-artifact@v4
       with:  
         name: alerts
-        path: ${{ steps.msdo.outputs.sarifFile }}
+        path: ${{ steps.msdo.outputs2.sarifFile }}
